@@ -63,4 +63,7 @@
     5. create Feature file, Stepdefinitions, Runner, Utility package/classes are configured correctly
     6. ..Now 
     7. Run as Maven Clean , Maven Verify -->This will generate cucumber reports
+***
+### Screenshot of folder structure
+![Image text](https://github.com/sannithreddy07/Mavencucumberreporting/blob/master/mavencucumber.PNG)
   
