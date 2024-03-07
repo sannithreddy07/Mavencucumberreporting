@@ -1,7 +1,9 @@
 ## Cucumber-reporting
-Get cucumber reporting, cucumber-java, juni, cucumber-io dependencies from mvn repository
-Add it in pom.xml
-along with cucumber reporting dependecy add below lines of xml code to get cucumber-report
+1. Get cucumber reporting, cucumber-java, juni, cucumber-io dependencies from mvn repository
+2. Add it in pom.xml
+3. along with cucumber reporting dependecy add below lines of xml code in pom.xml to get cucumber-report
+***
+```xml
 <build>
         <plugins>
             <plugin>
@@ -55,8 +57,10 @@ along with cucumber reporting dependecy add below lines of xml code to get cucum
             </plugin>
         </plugins>
     </build>
-    save the pom.xml and Update your project by (right click on projec --> Maven-->Update project)
-    create Feature file, Stepdefinitions, Runner, Utility package/classes are configured correctly
-    ..Now 
-    Run as Maven Clean , Maven Verify -->This will generate cucumber reports
+```
+***
+    4. save the pom.xml and Update your project by (right click on projec --> Maven-->Update project)
+    5. create Feature file, Stepdefinitions, Runner, Utility package/classes are configured correctly
+    6. ..Now 
+    7. Run as Maven Clean , Maven Verify -->This will generate cucumber reports
   
